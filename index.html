@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -86,6 +88,21 @@
   .route-name{font-size:14px;}
   .route-date{display:block;font-size:12px;color:var(--text-muted);margin-top:2px;}
   .route-elev{font-family:'JetBrains Mono',monospace;font-size:14px;color:var(--gold);white-space:nowrap;}
+  .ride-list{list-style:none;margin:0;padding:0;}
+  .ride-list li{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    gap:16px;
+    padding:12px 0;
+    border-bottom:0.5px solid var(--border);
+  }
+  .ride-list li:last-child{border-bottom:none;}
+  .ride-main{min-width:0;}
+  .ride-name{font-size:14px;display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .ride-meta{font-size:12px;color:var(--text-muted);margin-top:2px;}
+  .ride-stats{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--text-secondary);white-space:nowrap;text-align:right;}
+  .ride-stats .mi{color:var(--teal);}
   .legend{display:flex;gap:18px;font-size:12px;color:var(--text-secondary);margin-bottom:14px;font-family:'JetBrains Mono',monospace;}
   .legend span{display:inline-flex;align-items:center;gap:6px;}
   .dot{width:8px;height:8px;border-radius:2px;display:inline-block;}
@@ -133,6 +150,23 @@ function render(app, data) {
       <span class="route-elev">${c.elev_ft.toLocaleString()} ft</span>
     </li>
   `).join('');
+
+  const recentRidesHtml = (data.recent_rides || []).map(r => {
+    const hrs = Math.floor(r.moving_min / 60);
+    const mins = r.moving_min % 60;
+    const timeLabel = hrs > 0 ? `${hrs}h ${mins}m` : `${mins}m`;
+    return `
+    <li>
+      <div class="ride-main">
+        <span class="ride-name">${r.name}</span>
+        <div class="ride-meta">${new Date(r.date).toLocaleDateString(undefined, { month: 'short', day: 'numeric' })} · ${r.type}</div>
+      </div>
+      <div class="ride-stats">
+        <span class="mi">${r.distance_mi} mi</span> · ${r.elev_ft.toLocaleString()} ft · ${timeLabel}
+      </div>
+    </li>
+  `;
+  }).join('');
 
   const avgPerWeek = data.week_distances.length
     ? Math.round(data.week_distances.reduce((a, b) => a + b, 0) / data.week_distances.length)
@@ -189,6 +223,16 @@ function render(app, data) {
             <canvas id="sportChart" role="img" aria-label="Horizontal bar chart of activity count by type">Activity type breakdown.</canvas>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <h2>Recent rides</h2>
+        <span class="note">Last ${data.recent_rides ? data.recent_rides.length : 0}</span>
+      </div>
+      <div class="chart-card">
+        <ul class="ride-list">${recentRidesHtml}</ul>
       </div>
     </section>
 
