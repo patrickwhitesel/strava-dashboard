@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T23:52:12.523046Z",
+  "generated_at": "2026-07-10T23:55:27.448042Z",
   "total_distance_mi": 2446.5,
   "total_elev_ft": 130324,
   "total_moving_hr": 167.6,
@@ -216,5 +216,87 @@
     1342,
     203,
     1194
+  ],
+  "recent_rides": [
+    {
+      "name": "Morning Ride",
+      "type": "Ride",
+      "date": "2026-07-10",
+      "distance_mi": 24.1,
+      "elev_ft": 1194,
+      "moving_min": 78
+    },
+    {
+      "name": "Morning Ride",
+      "type": "Ride",
+      "date": "2026-07-09",
+      "distance_mi": 8.2,
+      "elev_ft": 203,
+      "moving_min": 36
+    },
+    {
+      "name": "Afternoon Ride",
+      "type": "Ride",
+      "date": "2026-07-08",
+      "distance_mi": 23.5,
+      "elev_ft": 1342,
+      "moving_min": 91
+    },
+    {
+      "name": "Afternoon Ride",
+      "type": "Ride",
+      "date": "2026-07-07",
+      "distance_mi": 20.3,
+      "elev_ft": 981,
+      "moving_min": 75
+    },
+    {
+      "name": "Page Mill",
+      "type": "Ride",
+      "date": "2026-07-05",
+      "distance_mi": 35.1,
+      "elev_ft": 2861,
+      "moving_min": 138
+    },
+    {
+      "name": "OLH and West Alpine",
+      "type": "Ride",
+      "date": "2026-07-03",
+      "distance_mi": 50.4,
+      "elev_ft": 4551,
+      "moving_min": 213
+    },
+    {
+      "name": "Bit of Noon Ride and Kings",
+      "type": "Ride",
+      "date": "2026-07-02",
+      "distance_mi": 44.1,
+      "elev_ft": 2976,
+      "moving_min": 163
+    },
+    {
+      "name": "Afternoon Ride",
+      "type": "Ride",
+      "date": "2026-06-29",
+      "distance_mi": 20.2,
+      "elev_ft": 981,
+      "moving_min": 76
+    },
+    {
+      "name": "Afternoon Walk",
+      "type": "Walk",
+      "date": "2026-06-28",
+      "distance_mi": 0.9,
+      "elev_ft": 16,
+      "moving_min": 22
+    },
+    {
+      "name": "Morning Ride",
+      "type": "Ride",
+      "date": "2026-06-28",
+      "distance_mi": 30.5,
+      "elev_ft": 1250,
+      "moving_min": 103
+    }
   ]
 }
