@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Season skyline — Strava training log</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#14181c;
+    --surface:#1c2127;
+    --surface-2:#242a31;
+    --text-primary:#EDEAE1;
+    --text-secondary:#8b939c;
+    --text-muted:#5c636b;
+    --gold:#D9A441;
+    --teal:#4FA091;
+    --rust:#C1552E;
+    --border:rgba(237,234,225,0.09);
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text-primary);
+    font-family:'Inter',sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:960px;margin:0 auto;padding:0 32px 80px;}
+  .eyebrow{
+    font-family:'JetBrains Mono',monospace;
+    font-size:12px;
+    letter-spacing:0.12em;
+    text-transform:uppercase;
+    color:var(--text-muted);
+  }
+  h1,h2{font-family:'Fraunces',serif;font-weight:500;margin:0;}
+  .hero{position:relative;padding:56px 0 0;overflow:hidden;}
+  .hero-top{display:flex;justify-content:space-between;align-items:flex-start;gap:24px;flex-wrap:wrap;position:relative;z-index:2;}
+  .hero-figure{font-family:'Fraunces',serif;font-weight:300;font-size:clamp(52px,9vw,96px);line-height:0.95;margin:12px 0 4px;letter-spacing:-0.02em;}
+  .hero-figure sup{font-size:0.32em;font-weight:400;color:var(--gold);margin-left:6px;top:-0.5em;}
+  .hero-sub{color:var(--text-secondary);font-size:15px;max-width:32ch;}
+  .hero-badge{
+    font-family:'JetBrains Mono',monospace;
+    font-size:12px;
+    color:var(--gold);
+    border:0.5px solid rgba(217,164,65,0.35);
+    background:rgba(217,164,65,0.08);
+    padding:6px 12px;
+    border-radius:100px;
+    white-space:nowrap;
+  }
+  #skyline{width:100%;height:220px;display:block;margin-top:8px;}
+  .kpi-row{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:1px;
+    background:var(--border);
+    border:0.5px solid var(--border);
+    border-radius:12px;
+    overflow:hidden;
+    margin:40px 0 56px;
+  }
+  .kpi{background:var(--surface);padding:20px 22px;}
+  .kpi-label{font-size:12px;color:var(--text-muted);font-family:'JetBrains Mono',monospace;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:8px;}
+  .kpi-value{font-family:'Fraunces',serif;font-size:28px;font-weight:500;}
+  section{margin-bottom:56px;}
+  .section-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:20px;}
+  .section-head h2{font-size:22px;}
+  .section-head .note{font-size:13px;color:var(--text-muted);font-family:'JetBrains Mono',monospace;}
+  .chart-card{background:var(--surface);border:0.5px solid var(--border);border-radius:12px;padding:24px;}
+  .two-col{display:grid;grid-template-columns:1.1fr 0.9fr;gap:24px;}
+  .route-sheet{list-style:none;margin:0;padding:0;}
+  .route-sheet li{
+    display:grid;
+    grid-template-columns:28px 1fr auto;
+    gap:14px;
+    align-items:baseline;
+    padding:13px 0;
+    border-bottom:0.5px solid var(--border);
+  }
+  .route-sheet li:last-child{border-bottom:none;}
+  .route-num{font-family:'JetBrains Mono',monospace;color:var(--text-muted);font-size:13px;}
+  .route-name{font-size:14px;}
+  .route-date{display:block;font-size:12px;color:var(--text-muted);margin-top:2px;}
+  .route-elev{font-family:'JetBrains Mono',monospace;font-size:14px;color:var(--gold);white-space:nowrap;}
+  .legend{display:flex;gap:18px;font-size:12px;color:var(--text-secondary);margin-bottom:14px;font-family:'JetBrains Mono',monospace;}
+  .legend span{display:inline-flex;align-items:center;gap:6px;}
+  .dot{width:8px;height:8px;border-radius:2px;display:inline-block;}
+  footer{border-top:0.5px solid var(--border);padding-top:20px;font-size:13px;color:var(--text-muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;}
+  .state-msg{padding:80px 0;text-align:center;color:var(--text-secondary);font-size:14px;}
+  @media (max-width:680px){
+    .kpi-row{grid-template-columns:repeat(2,1fr);}
+    .two-col{grid-template-columns:1fr;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap" id="app">
+  <div class="state-msg" id="loading">Loading dashboard data…</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+async function loadDashboard() {
+  const app = document.getElementById('app');
+  let data;
+  try {
+    const res = await fetch('data.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error('data.json not found');
+    data = await res.json();
+  } catch (err) {
+    app.innerHTML = '<div class="state-msg">Couldn\'t load data.json. Make sure this page and data.json are in the same folder, and that the update workflow has run at least once.</div>';
+    return;
+  }
+  render(app, data);
+}
+
+function render(app, data) {
+  const genDate = new Date(data.generated_at);
+  const genLabel = genDate.toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' });
+
+  const sportOrder = Object.entries(data.sport_counts).sort((a, b) => b[1] - a[1]);
+  const sportLabels = sportOrder.map(s => s[0]);
+  const sportValues = sportOrder.map(s => s[1]);
+
+  const climbsHtml = data.top_climbs.map((c, i) => `
+    <li>
+      <span class="route-num">${String(i + 1).padStart(2, '0')}</span>
+      <span class="route-name">${c.name}<span class="route-date">${new Date(c.date).toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' })} · ${c.distance_mi} mi</span></span>
+      <span class="route-elev">${c.elev_ft.toLocaleString()} ft</span>
+    </li>
+  `).join('');
+
+  const avgPerWeek = data.week_distances.length
+    ? Math.round(data.week_distances.reduce((a, b) => a + b, 0) / data.week_distances.length)
+    : 0;
+
+  app.innerHTML = `
+    <div class="hero">
+      <div class="hero-top">
+        <div>
+          <p class="eyebrow">Training log</p>
+          <h1 class="hero-figure">${data.total_elev_ft.toLocaleString()}<sup>ft climbed</sup></h1>
+          <p class="hero-sub">Across ${data.activity_count} activities and ${data.total_distance_mi.toLocaleString()} miles.</p>
+        </div>
+        <span class="hero-badge">Updated ${genLabel}</span>
+      </div>
+      <svg id="skyline" viewBox="0 0 900 220" preserveAspectRatio="none"></svg>
+    </div>
+
+    <div class="kpi-row">
+      <div class="kpi"><div class="kpi-label">Distance</div><div class="kpi-value">${data.total_distance_mi.toLocaleString()} mi</div></div>
+      <div class="kpi"><div class="kpi-label">Moving time</div><div class="kpi-value">${data.total_moving_hr.toLocaleString()} hrs</div></div>
+      <div class="kpi"><div class="kpi-label">Activities</div><div class="kpi-value">${data.activity_count}</div></div>
+      <div class="kpi"><div class="kpi-label">Avg / week</div><div class="kpi-value">${avgPerWeek} mi</div></div>
+    </div>
+
+    <section>
+      <div class="section-head">
+        <h2>Weekly volume</h2>
+        <span class="note">${data.week_labels.length} weeks</span>
+      </div>
+      <div class="chart-card">
+        <div class="legend">
+          <span><span class="dot" style="background:var(--teal)"></span>Distance (mi)</span>
+        </div>
+        <div style="position:relative;width:100%;height:220px;">
+          <canvas id="weeklyChart" role="img" aria-label="Bar chart of weekly distance">Weekly distance trend.</canvas>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="two-col">
+        <div class="chart-card">
+          <div class="section-head" style="margin-bottom:16px;">
+            <h2 style="font-size:18px;">Biggest climbing days</h2>
+          </div>
+          <ol class="route-sheet">${climbsHtml}</ol>
+        </div>
+        <div class="chart-card">
+          <div class="section-head" style="margin-bottom:16px;">
+            <h2 style="font-size:18px;">By activity type</h2>
+          </div>
+          <div style="position:relative;width:100%;height:200px;">
+            <canvas id="sportChart" role="img" aria-label="Horizontal bar chart of activity count by type">Activity type breakdown.</canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <span>Auto-updates daily via GitHub Actions.</span>
+      <span>Oura recovery data not yet connected.</span>
+    </footer>
+  `;
+
+  buildSkyline(data.elevation_series);
+  buildCharts(data.week_labels, data.week_distances, sportLabels, sportValues);
+}
+
+function buildSkyline(elevSeries) {
+  if (!elevSeries || elevSeries.length < 2) return;
+  const svg = document.getElementById('skyline');
+  const w = 900, h = 220, pad = 4;
+  const max = Math.max(...elevSeries, 1);
+  const n = elevSeries.length;
+  const stepX = w / (n - 1);
+  const pts = elevSeries.map((v, i) => {
+    const x = i * stepX;
+    const y = h - pad - (v / max) * (h - pad * 2);
+    return [x, y];
+  });
+  let d = `M0,${h} `;
+  pts.forEach(p => { d += `L${p[0].toFixed(1)},${p[1].toFixed(1)} `; });
+  d += `L${w},${h} Z`;
+  let line = `M${pts[0][0]},${pts[0][1]} `;
+  pts.slice(1).forEach(p => { line += `L${p[0].toFixed(1)},${p[1].toFixed(1)} `; });
+
+  const ns = 'http://www.w3.org/2000/svg';
+  const fillPath = document.createElementNS(ns, 'path');
+  fillPath.setAttribute('d', d);
+  fillPath.setAttribute('fill', 'rgba(79,160,145,0.16)');
+  svg.appendChild(fillPath);
+
+  const linePath = document.createElementNS(ns, 'path');
+  linePath.setAttribute('d', line);
+  linePath.setAttribute('fill', 'none');
+  linePath.setAttribute('stroke', '#4FA091');
+  linePath.setAttribute('stroke-width', '1.5');
+  svg.appendChild(linePath);
+
+  const sortedIdx = elevSeries.map((v, i) => [v, i]).sort((a, b) => b[0] - a[0]).slice(0, 3).map(x => x[1]);
+  sortedIdx.forEach(i => {
+    const c = document.createElementNS(ns, 'circle');
+    c.setAttribute('cx', pts[i][0].toFixed(1));
+    c.setAttribute('cy', pts[i][1].toFixed(1));
+    c.setAttribute('r', '3.5');
+    c.setAttribute('fill', '#D9A441');
+    svg.appendChild(c);
+  });
+}
+
+function buildCharts(weekLabels, weekDistances, sportLabels, sportValues) {
+  new Chart(document.getElementById('weeklyChart'), {
+    type: 'bar',
+    data: { labels: weekLabels, datasets: [{ data: weekDistances, backgroundColor: '#4FA091', borderRadius: 3, maxBarThickness: 22 }] },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false }, tooltip: { callbacks: { label: (c) => c.parsed.y + ' mi' } } },
+      scales: {
+        x: { grid: { display: false }, ticks: { autoSkip: true, maxRotation: 0, font: { size: 11, family: 'JetBrains Mono' }, color: '#5c636b' } },
+        y: { grid: { color: 'rgba(237,234,225,0.06)' }, ticks: { font: { size: 11, family: 'JetBrains Mono' }, color: '#5c636b' } }
+      }
+    }
+  });
+
+  new Chart(document.getElementById('sportChart'), {
+    type: 'bar',
+    data: { labels: sportLabels, datasets: [{ data: sportValues, backgroundColor: '#D9A441', borderRadius: 3, maxBarThickness: 14 }] },
+    options: {
+      indexAxis: 'y', responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { grid: { color: 'rgba(237,234,225,0.06)' }, ticks: { font: { size: 11, family: 'JetBrains Mono' }, color: '#5c636b' } },
+        y: { grid: { display: false }, ticks: { font: { size: 12 }, color: '#8b939c' } }
+      }
+    }
+  });
+}
+
+loadDashboard();
+</script>
+</body>
+</html>
