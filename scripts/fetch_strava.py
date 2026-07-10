@@ -107,6 +107,16 @@ def build_dashboard_data(activities):
         for a in sorted(activities, key=lambda a: a["start_date_local"])
     ]
 
+    recent_sorted = sorted(activities, key=lambda a: a["start_date_local"], reverse=True)[:10]
+    recent_rides = [{
+        "name": a["name"],
+        "type": a["type"],
+        "date": a["start_date_local"][:10],
+        "distance_mi": m_to_mi(a["distance"]),
+        "elev_ft": m_to_ft(a["total_elevation_gain"]),
+        "moving_min": round(a["moving_time"] / 60),
+    } for a in recent_sorted]
+
     return {
         "generated_at": datetime.utcnow().isoformat() + "Z",
         "total_distance_mi": total_distance_mi,
@@ -118,6 +128,7 @@ def build_dashboard_data(activities):
         "week_distances": week_distances,
         "top_climbs": climbs_out,
         "elevation_series": elevation_series,
+        "recent_rides": recent_rides,
     }
 
 
@@ -136,3 +147,4 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"Failed to update dashboard data: {e}", file=sys.stderr)
         sys.exit(1)
+
