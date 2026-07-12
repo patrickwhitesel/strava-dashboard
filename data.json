@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-11T14:22:09.518427Z",
-  "total_distance_mi": 2446.5,
-  "total_elev_ft": 130324,
-  "total_moving_hr": 167.6,
+  "generated_at": "2026-07-12T00:21:34.608867Z",
+  "total_distance_mi": 2432.2,
+  "total_elev_ft": 115319,
+  "total_moving_hr": 166.4,
   "activity_count": 119,
   "sport_counts": {
-    "AlpineSki": 2,
-    "Ride": 91,
+    "Ride": 92,
     "VirtualRide": 7,
+    "AlpineSki": 1,
     "Run": 3,
     "Walk": 15,
     "Surfing": 1
@@ -36,7 +36,7 @@
     "Jul 6"
   ],
   "week_distances": [
-    72.5,
+    38.9,
     98.2,
     9.6,
     142.0,
@@ -56,15 +56,9 @@
     145.7,
     99.0,
     149.8,
-    76.1
+    95.4
   ],
   "top_climbs": [
-    {
-      "name": "Morning Alpine Ski",
-      "date": "2026-02-21",
-      "elev_ft": 18470,
-      "distance_mi": 33.6
-    },
     {
       "name": "OLH and West Alpine",
       "date": "2026-07-03",
@@ -76,6 +70,12 @@
       "date": "2026-04-04",
       "elev_ft": 4478,
       "distance_mi": 51.3
+    },
+    {
+      "name": "Flow and Braille with Matt and Zach",
+      "date": "2026-07-11",
+      "elev_ft": 3465,
+      "distance_mi": 19.3
     },
     {
       "name": "Morning Ride",
@@ -97,7 +97,6 @@
     }
   ],
   "elevation_series": [
-    18470,
     2654,
     0,
     338,
@@ -215,9 +214,18 @@
     981,
     1342,
     203,
-    1194
+    1194,
+    3465
   ],
   "recent_rides": [
+    {
+      "name": "Flow and Braille with Matt and Zach",
+      "type": "Ride",
+      "date": "2026-07-11",
+      "distance_mi": 19.3,
+      "elev_ft": 3465,
+      "moving_min": 160
+    },
     {
       "name": "Morning Ride",
       "type": "Ride",
@@ -289,14 +297,6 @@
       "distance_mi": 0.9,
       "elev_ft": 16,
       "moving_min": 22
-    },
-    {
-      "name": "Morning Ride",
-      "type": "Ride",
-      "date": "2026-06-28",
-      "distance_mi": 30.5,
-      "elev_ft": 1250,
-      "moving_min": 103
     }
   ]
 }
