@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-15T14:49:52.179995Z",
-  "total_distance_mi": 2375.1,
-  "total_elev_ft": 112448,
-  "total_moving_hr": 163.4,
+  "generated_at": "2026-07-16T15:01:53.791903Z",
+  "total_distance_mi": 2374.5,
+  "total_elev_ft": 112396,
+  "total_moving_hr": 163.8,
   "activity_count": 118,
   "sport_counts": {
-    "VirtualRide": 7,
-    "Ride": 90,
+    "Ride": 91,
     "AlpineSki": 1,
     "Run": 4,
     "Walk": 15,
+    "VirtualRide": 6,
     "Surfing": 1
   },
   "week_labels": [
@@ -36,7 +36,7 @@
     "Jul 13"
   ],
   "week_distances": [
-    73.0,
+    51.5,
     9.6,
     142.0,
     106.6,
@@ -56,7 +56,7 @@
     99.0,
     149.8,
     99.3,
-    3.1
+    24.0
   ],
   "top_climbs": [
     {
@@ -97,7 +97,6 @@
     }
   ],
   "elevation_series": [
-    1099,
     194,
     1198,
     742,
@@ -214,9 +213,18 @@
     1194,
     3465,
     82,
-    39
+    39,
+    1047
   ],
   "recent_rides": [
+    {
+      "name": "Afternoon Ride",
+      "type": "Ride",
+      "date": "2026-07-15",
+      "distance_mi": 20.9,
+      "elev_ft": 1047,
+      "moving_min": 81
+    },
     {
       "name": "Afternoon Run",
       "type": "Run",
@@ -288,14 +296,6 @@
       "distance_mi": 50.4,
       "elev_ft": 4551,
       "moving_min": 213
-    },
-    {
-      "name": "Bit of Noon Ride and Kings",
-      "type": "Ride",
-      "date": "2026-07-02",
-      "distance_mi": 44.1,
-      "elev_ft": 2976,
-      "moving_min": 163
     }
   ]
 }
