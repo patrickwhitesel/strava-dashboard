@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-20T15:11:23.165132Z",
-  "total_distance_mi": 2374.2,
-  "total_elev_ft": 114671,
-  "total_moving_hr": 162.6,
+  "generated_at": "2026-07-21T15:03:30.767282Z",
+  "total_distance_mi": 2391.5,
+  "total_elev_ft": 115429,
+  "total_moving_hr": 163.4,
   "activity_count": 117,
   "sport_counts": {
-    "Run": 4,
+    "Run": 3,
     "Walk": 15,
     "VirtualRide": 6,
-    "Ride": 91,
+    "Ride": 92,
     "Surfing": 1
   },
   "week_labels": [
@@ -31,10 +31,11 @@
     "Jun 22",
     "Jun 29",
     "Jul 6",
-    "Jul 13"
+    "Jul 13",
+    "Jul 20"
   ],
   "week_distances": [
-    9.6,
+    6.7,
     142.0,
     106.6,
     131.4,
@@ -53,7 +54,8 @@
     99.0,
     149.8,
     99.3,
-    75.2
+    75.2,
+    20.2
   ],
   "top_climbs": [
     {
@@ -94,7 +96,6 @@
     }
   ],
   "elevation_series": [
-    203,
     331,
     26,
     899,
@@ -210,9 +211,18 @@
     39,
     1047,
     3192,
-    1217
+    1217,
+    961
   ],
   "recent_rides": [
+    {
+      "name": "Afternoon Ride",
+      "type": "Ride",
+      "date": "2026-07-20",
+      "distance_mi": 20.2,
+      "elev_ft": 961,
+      "moving_min": 73
+    },
     {
       "name": "Morning Ride",
       "type": "Ride",
@@ -284,14 +294,6 @@
       "distance_mi": 23.5,
       "elev_ft": 1342,
       "moving_min": 91
-    },
-    {
-      "name": "Afternoon Ride",
-      "type": "Ride",
-      "date": "2026-07-07",
-      "distance_mi": 20.3,
-      "elev_ft": 981,
-      "moving_min": 75
     }
   ]
 }
