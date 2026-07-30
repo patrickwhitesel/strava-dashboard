@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29T15:08:24.833830Z",
-  "total_distance_mi": 2432.1,
-  "total_elev_ft": 119617,
+  "generated_at": "2026-07-30T15:10:03.574966Z",
+  "total_distance_mi": 2432.0,
+  "total_elev_ft": 120335,
   "total_moving_hr": 166.1,
   "activity_count": 117,
   "sport_counts": {
@@ -35,7 +35,7 @@
     "Jul 27"
   ],
   "week_distances": [
-    103.9,
+    82.9,
     106.6,
     131.4,
     128.8,
@@ -55,7 +55,7 @@
     99.3,
     75.2,
     104.3,
-    1.3
+    22.2
   ],
   "top_climbs": [
     {
@@ -96,7 +96,6 @@
     }
   ],
   "elevation_series": [
-    315,
     1404,
     2028,
     174,
@@ -212,9 +211,18 @@
     3127,
     36,
     3711,
-    20
+    20,
+    1033
   ],
   "recent_rides": [
+    {
+      "name": "Afternoon Ride",
+      "type": "Ride",
+      "date": "2026-07-29",
+      "distance_mi": 20.9,
+      "elev_ft": 1033,
+      "moving_min": 76
+    },
     {
       "name": "Evening Walk",
       "type": "Walk",
@@ -286,14 +294,6 @@
       "distance_mi": 3.1,
       "elev_ft": 39,
       "moving_min": 30
-    },
-    {
-      "name": "Afternoon Ride",
-      "type": "Ride",
-      "date": "2026-07-12",
-      "distance_mi": 3.9,
-      "elev_ft": 82,
-      "moving_min": 28
     }
   ]
 }
