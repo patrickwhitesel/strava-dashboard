@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-01T14:25:44.856576Z",
-  "total_distance_mi": 2458.1,
-  "total_elev_ft": 121389,
-  "total_moving_hr": 167.3,
+  "generated_at": "2026-08-02T14:28:17.694041Z",
+  "total_distance_mi": 2453.1,
+  "total_elev_ft": 121218,
+  "total_moving_hr": 166.9,
   "activity_count": 118,
   "sport_counts": {
     "Ride": 94,
@@ -35,7 +35,7 @@
     "Jul 27"
   ],
   "week_distances": [
-    61.1,
+    9.4,
     106.6,
     131.4,
     128.8,
@@ -55,7 +55,7 @@
     99.3,
     75.2,
     104.3,
-    70.1
+    116.8
   ],
   "top_climbs": [
     {
@@ -96,7 +96,6 @@
     }
   ],
   "elevation_series": [
-    2028,
     174,
     358,
     367,
@@ -213,9 +212,18 @@
     20,
     1033,
     1280,
-    1178
+    1178,
+    1857
   ],
   "recent_rides": [
+    {
+      "name": "Morning Ride",
+      "type": "Ride",
+      "date": "2026-08-01",
+      "distance_mi": 46.7,
+      "elev_ft": 1857,
+      "moving_min": 135
+    },
     {
       "name": "Morning Ride",
       "type": "Ride",
@@ -287,14 +295,6 @@
       "distance_mi": 30.5,
       "elev_ft": 1217,
       "moving_min": 106
-    },
-    {
-      "name": "Showing Adrien Around",
-      "type": "Ride",
-      "date": "2026-07-16",
-      "distance_mi": 20.7,
-      "elev_ft": 3192,
-      "moving_min": 119
     }
   ]
 }
