@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-02T14:28:17.694041Z",
-  "total_distance_mi": 2453.1,
-  "total_elev_ft": 121218,
-  "total_moving_hr": 166.9,
+  "generated_at": "2026-08-03T15:42:14.464199Z",
+  "total_distance_mi": 2457.6,
+  "total_elev_ft": 123091,
+  "total_moving_hr": 168.0,
   "activity_count": 118,
   "sport_counts": {
     "Ride": 94,
@@ -12,7 +12,6 @@
     "Run": 2
   },
   "week_labels": [
-    "Mar 9",
     "Mar 16",
     "Mar 23",
     "Mar 30",
@@ -35,7 +34,6 @@
     "Jul 27"
   ],
   "week_distances": [
-    9.4,
     106.6,
     131.4,
     128.8,
@@ -55,7 +53,7 @@
     99.3,
     75.2,
     104.3,
-    116.8
+    130.7
   ],
   "top_climbs": [
     {
@@ -96,7 +94,6 @@
     }
   ],
   "elevation_series": [
-    174,
     358,
     367,
     2408,
@@ -213,9 +210,18 @@
     1033,
     1280,
     1178,
-    1857
+    1857,
+    2047
   ],
   "recent_rides": [
+    {
+      "name": "SC with Dad and Pete",
+      "type": "Ride",
+      "date": "2026-08-02",
+      "distance_mi": 13.9,
+      "elev_ft": 2047,
+      "moving_min": 129
+    },
     {
       "name": "Morning Ride",
       "type": "Ride",
@@ -287,14 +293,6 @@
       "distance_mi": 20.2,
       "elev_ft": 961,
       "moving_min": 73
-    },
-    {
-      "name": "Morning Ride",
-      "type": "Ride",
-      "date": "2026-07-18",
-      "distance_mi": 30.5,
-      "elev_ft": 1217,
-      "moving_min": 106
     }
   ]
 }
