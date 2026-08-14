@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-13T14:21:59.541092Z",
-  "total_distance_mi": 2463.0,
-  "total_elev_ft": 118697,
-  "total_moving_hr": 165.9,
+  "generated_at": "2026-08-14T14:15:19.144655Z",
+  "total_distance_mi": 2446.9,
+  "total_elev_ft": 117775,
+  "total_moving_hr": 165.1,
   "activity_count": 118,
   "sport_counts": {
     "Ride": 94,
@@ -35,7 +35,7 @@
     "Aug 10"
   ],
   "week_distances": [
-    48.2,
+    23.8,
     128.8,
     163.6,
     125.6,
@@ -55,7 +55,7 @@
     104.3,
     130.7,
     136.0,
-    59.2
+    67.5
   ],
   "top_climbs": [
     {
@@ -96,7 +96,6 @@
     }
   ],
   "elevation_series": [
-    1188,
     1529,
     341,
     2060,
@@ -213,9 +212,18 @@
     1978,
     141,
     430,
-    331
+    331,
+    266
   ],
   "recent_rides": [
+    {
+      "name": "Morning Ride",
+      "type": "Ride",
+      "date": "2026-08-13",
+      "distance_mi": 8.3,
+      "elev_ft": 266,
+      "moving_min": 36
+    },
     {
       "name": "Morning Ride",
       "type": "Ride",
@@ -287,14 +295,6 @@
       "distance_mi": 13.9,
       "elev_ft": 2047,
       "moving_min": 129
-    },
-    {
-      "name": "Morning Ride",
-      "type": "Ride",
-      "date": "2026-08-01",
-      "distance_mi": 46.7,
-      "elev_ft": 1857,
-      "moving_min": 135
     }
   ]
 }
