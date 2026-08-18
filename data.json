@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-17T13:38:17.334149Z",
-  "total_distance_mi": 2481.1,
-  "total_elev_ft": 118198,
-  "total_moving_hr": 167.5,
-  "activity_count": 120,
+  "generated_at": "2026-08-18T13:41:11.985027Z",
+  "total_distance_mi": 2468.6,
+  "total_elev_ft": 117956,
+  "total_moving_hr": 167.0,
+  "activity_count": 121,
   "sport_counts": {
     "Ride": 95,
-    "Walk": 17,
+    "Walk": 18,
     "VirtualRide": 5,
     "Surfing": 1,
     "Run": 2
@@ -31,10 +31,11 @@
     "Jul 20",
     "Jul 27",
     "Aug 3",
-    "Aug 10"
+    "Aug 10",
+    "Aug 17"
   ],
   "week_distances": [
-    128.8,
+    107.1,
     163.6,
     125.6,
     85.4,
@@ -53,7 +54,8 @@
     104.3,
     130.7,
     136.0,
-    125.5
+    125.5,
+    9.2
   ],
   "top_climbs": [
     {
@@ -94,7 +96,6 @@
     }
   ],
   "elevation_series": [
-    341,
     2060,
     69,
     1191,
@@ -213,9 +214,27 @@
     266,
     384,
     1358,
-    210
+    210,
+    10,
+    89
   ],
   "recent_rides": [
+    {
+      "name": "Morning Ride",
+      "type": "Ride",
+      "date": "2026-08-17",
+      "distance_mi": 8.3,
+      "elev_ft": 89,
+      "moving_min": 35
+    },
+    {
+      "name": "Morning Walk",
+      "type": "Walk",
+      "date": "2026-08-17",
+      "distance_mi": 0.9,
+      "elev_ft": 10,
+      "moving_min": 21
+    },
     {
       "name": "Lunch Walk",
       "type": "Walk",
@@ -279,22 +298,6 @@
       "distance_mi": 49.0,
       "elev_ft": 1978,
       "moving_min": 139
-    },
-    {
-      "name": "Morning Ride",
-      "type": "Ride",
-      "date": "2026-08-07",
-      "distance_mi": 23.8,
-      "elev_ft": 1168,
-      "moving_min": 78
-    },
-    {
-      "name": "Morning Ride",
-      "type": "Ride",
-      "date": "2026-08-06",
-      "distance_mi": 8.4,
-      "elev_ft": 213,
-      "moving_min": 36
     }
   ]
 }
