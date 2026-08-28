@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-27T22:49:28.948040Z",
-  "total_distance_mi": 2502.9,
-  "total_elev_ft": 116210,
-  "total_moving_hr": 168.6,
-  "activity_count": 121,
+  "generated_at": "2026-08-28T22:53:32.601041Z",
+  "total_distance_mi": 2518.5,
+  "total_elev_ft": 116984,
+  "total_moving_hr": 169.7,
+  "activity_count": 122,
   "sport_counts": {
-    "VirtualRide": 5,
-    "Ride": 96,
+    "Ride": 98,
+    "VirtualRide": 4,
     "Walk": 17,
     "Surfing": 1,
     "Run": 2
@@ -35,7 +35,7 @@
     "Aug 24"
   ],
   "week_distances": [
-    72.9,
+    54.8,
     125.6,
     85.4,
     56.1,
@@ -55,7 +55,7 @@
     136.0,
     125.5,
     152.7,
-    88.6
+    122.3
   ],
   "top_climbs": [
     {
@@ -96,7 +96,6 @@
     }
   ],
   "elevation_series": [
-    499,
     827,
     2238,
     0,
@@ -216,9 +215,27 @@
     5495,
     371,
     591,
-    217
+    217,
+    92,
+    1181
   ],
   "recent_rides": [
+    {
+      "name": "Morning Ride",
+      "type": "Ride",
+      "date": "2026-08-28",
+      "distance_mi": 24.4,
+      "elev_ft": 1181,
+      "moving_min": 80
+    },
+    {
+      "name": "Morning Ride",
+      "type": "Ride",
+      "date": "2026-08-27",
+      "distance_mi": 9.3,
+      "elev_ft": 92,
+      "moving_min": 40
+    },
     {
       "name": "WNC",
       "type": "Ride",
@@ -282,22 +299,6 @@
       "distance_mi": 18.7,
       "elev_ft": 2615,
       "moving_min": 110
-    },
-    {
-      "name": "Morning Ride",
-      "type": "Ride",
-      "date": "2026-08-17",
-      "distance_mi": 8.3,
-      "elev_ft": 89,
-      "moving_min": 35
-    },
-    {
-      "name": "Morning Walk",
-      "type": "Walk",
-      "date": "2026-08-17",
-      "distance_mi": 0.9,
-      "elev_ft": 10,
-      "moving_min": 21
     }
   ]
 }
