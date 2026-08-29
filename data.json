@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-28T22:53:32.601041Z",
-  "total_distance_mi": 2518.5,
-  "total_elev_ft": 116984,
-  "total_moving_hr": 169.7,
-  "activity_count": 122,
+  "generated_at": "2026-08-29T16:58:34.267133Z",
+  "total_distance_mi": 2493.0,
+  "total_elev_ft": 116157,
+  "total_moving_hr": 168.3,
+  "activity_count": 121,
   "sport_counts": {
-    "Ride": 98,
     "VirtualRide": 4,
+    "Ride": 97,
     "Walk": 17,
     "Surfing": 1,
     "Run": 2
@@ -35,7 +35,7 @@
     "Aug 24"
   ],
   "week_distances": [
-    54.8,
+    29.3,
     125.6,
     85.4,
     56.1,
@@ -96,7 +96,6 @@
     }
   ],
   "elevation_series": [
-    827,
     2238,
     0,
     102,
