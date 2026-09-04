@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-03T16:56:28.224824Z",
-  "total_distance_mi": 2485.2,
-  "total_elev_ft": 116957,
-  "total_moving_hr": 166.7,
+  "generated_at": "2026-09-04T16:44:46.055066Z",
+  "total_distance_mi": 2507.2,
+  "total_elev_ft": 118046,
+  "total_moving_hr": 167.4,
   "activity_count": 119,
   "sport_counts": {
-    "Walk": 17,
-    "Ride": 96,
+    "Ride": 97,
+    "Walk": 16,
     "VirtualRide": 3,
     "Surfing": 1,
     "Run": 2
@@ -35,7 +35,7 @@
     "Aug 31"
   ],
   "week_distances": [
-    33.0,
+    31.7,
     85.4,
     56.1,
     111.1,
@@ -55,7 +55,7 @@
     125.5,
     152.7,
     198.3,
-    38.1
+    61.4
   ],
   "top_climbs": [
     {
@@ -96,7 +96,6 @@
     }
   ],
   "elevation_series": [
-    95,
     1243,
     23,
     1762,
@@ -214,9 +213,18 @@
     2142,
     988,
     210,
-    1083
+    1083,
+    1184
   ],
   "recent_rides": [
+    {
+      "name": "WGMR",
+      "type": "Ride",
+      "date": "2026-09-04",
+      "distance_mi": 23.3,
+      "elev_ft": 1184,
+      "moving_min": 77
+    },
     {
       "name": "Moody Wednesday",
       "type": "Ride",
@@ -288,14 +296,6 @@
       "distance_mi": 21.7,
       "elev_ft": 371,
       "moving_min": 86
-    },
-    {
-      "name": "Morning Ride",
-      "type": "Ride",
-      "date": "2026-08-22",
-      "distance_mi": 66.3,
-      "elev_ft": 5495,
-      "moving_min": 262
     }
   ]
 }
