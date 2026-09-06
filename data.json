@@ -1,15 +1,16 @@
 {
-  "generated_at": "2026-09-05T15:47:46.739502Z",
-  "total_distance_mi": 2507.2,
-  "total_elev_ft": 118046,
-  "total_moving_hr": 167.4,
-  "activity_count": 119,
+  "generated_at": "2026-09-06T16:00:03.114668Z",
+  "total_distance_mi": 2514.2,
+  "total_elev_ft": 120441,
+  "total_moving_hr": 171.2,
+  "activity_count": 120,
   "sport_counts": {
     "Ride": 97,
     "Walk": 16,
     "VirtualRide": 3,
     "Surfing": 1,
-    "Run": 2
+    "Run": 2,
+    "Hike": 1
   },
   "week_labels": [
     "Apr 13",
@@ -55,7 +56,7 @@
     125.5,
     152.7,
     198.3,
-    61.4
+    68.4
   ],
   "top_climbs": [
     {
@@ -214,9 +215,18 @@
     988,
     210,
     1083,
-    1184
+    1184,
+    2395
   ],
   "recent_rides": [
+    {
+      "name": "Morning Hike",
+      "type": "Hike",
+      "date": "2026-09-05",
+      "distance_mi": 7.0,
+      "elev_ft": 2395,
+      "moving_min": 226
+    },
     {
       "name": "WGMR",
       "type": "Ride",
@@ -288,14 +298,6 @@
       "distance_mi": 32.8,
       "elev_ft": 591,
       "moving_min": 122
-    },
-    {
-      "name": "Morning Ride",
-      "type": "Ride",
-      "date": "2026-08-24",
-      "distance_mi": 21.7,
-      "elev_ft": 371,
-      "moving_min": 86
     }
   ]
 }
