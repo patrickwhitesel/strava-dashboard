@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-10T16:53:54.542481Z",
-  "total_distance_mi": 2492.7,
-  "total_elev_ft": 117407,
-  "total_moving_hr": 169.6,
+  "generated_at": "2026-09-11T16:55:14.335190Z",
+  "total_distance_mi": 2480.3,
+  "total_elev_ft": 116581,
+  "total_moving_hr": 169.0,
   "activity_count": 119,
   "sport_counts": {
-    "Ride": 98,
     "Walk": 16,
     "Surfing": 1,
     "Run": 2,
+    "Ride": 98,
     "Hike": 2
   },
   "week_labels": [
@@ -35,7 +35,7 @@
     "Sep 7"
   ],
   "week_distances": [
-    23.5,
+    2.8,
     56.1,
     111.1,
     196.0,
@@ -55,7 +55,7 @@
     152.7,
     198.3,
     90.1,
-    50.4
+    58.7
   ],
   "top_climbs": [
     {
@@ -96,7 +96,6 @@
     }
   ],
   "elevation_series": [
-    915,
     24,
     31,
     174,
@@ -214,9 +213,18 @@
     289,
     807,
     1437,
-    3
+    3,
+    89
   ],
   "recent_rides": [
+    {
+      "name": "Fueled by Thor Labs Lab Snacks",
+      "type": "Ride",
+      "date": "2026-09-10",
+      "distance_mi": 8.3,
+      "elev_ft": 89,
+      "moving_min": 35
+    },
     {
       "name": "Morning Walk",
       "type": "Walk",
@@ -288,14 +296,6 @@
       "distance_mi": 20.7,
       "elev_ft": 1083,
       "moving_min": 77
-    },
-    {
-      "name": "Morning Ride",
-      "type": "Ride",
-      "date": "2026-09-01",
-      "distance_mi": 17.4,
-      "elev_ft": 210,
-      "moving_min": 69
     }
   ]
 }
