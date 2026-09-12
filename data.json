@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-11T16:55:14.335190Z",
-  "total_distance_mi": 2480.3,
-  "total_elev_ft": 116581,
-  "total_moving_hr": 169.0,
+  "generated_at": "2026-09-12T16:00:11.622044Z",
+  "total_distance_mi": 2493.0,
+  "total_elev_ft": 118375,
+  "total_moving_hr": 169.9,
   "activity_count": 119,
   "sport_counts": {
-    "Walk": 16,
     "Surfing": 1,
     "Run": 2,
-    "Ride": 98,
+    "Ride": 99,
+    "Walk": 15,
     "Hike": 2
   },
   "week_labels": [
@@ -35,7 +35,7 @@
     "Sep 7"
   ],
   "week_distances": [
-    2.8,
+    1.5,
     56.1,
     111.1,
     196.0,
@@ -55,7 +55,7 @@
     152.7,
     198.3,
     90.1,
-    58.7
+    72.7
   ],
   "top_climbs": [
     {
@@ -96,7 +96,6 @@
     }
   ],
   "elevation_series": [
-    24,
     31,
     174,
     1801,
@@ -214,9 +213,18 @@
     807,
     1437,
     3,
-    89
+    89,
+    1818
   ],
   "recent_rides": [
+    {
+      "name": "Afternoon Gravel Ride",
+      "type": "Ride",
+      "date": "2026-09-11",
+      "distance_mi": 14.0,
+      "elev_ft": 1818,
+      "moving_min": 77
+    },
     {
       "name": "Fueled by Thor Labs Lab Snacks",
       "type": "Ride",
@@ -287,14 +295,6 @@
       "date": "2026-09-04",
       "distance_mi": 23.3,
       "elev_ft": 1184,
-      "moving_min": 77
-    },
-    {
-      "name": "Moody Wednesday",
-      "type": "Ride",
-      "date": "2026-09-02",
-      "distance_mi": 20.7,
-      "elev_ft": 1083,
       "moving_min": 77
     }
   ]
