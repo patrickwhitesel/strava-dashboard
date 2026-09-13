@@ -1,18 +1,16 @@
 {
-  "generated_at": "2026-09-12T16:00:11.622044Z",
-  "total_distance_mi": 2493.0,
-  "total_elev_ft": 118375,
-  "total_moving_hr": 169.9,
+  "generated_at": "2026-09-13T16:50:26.575476Z",
+  "total_distance_mi": 2543.4,
+  "total_elev_ft": 120381,
+  "total_moving_hr": 170.9,
   "activity_count": 119,
   "sport_counts": {
-    "Surfing": 1,
     "Run": 2,
-    "Ride": 99,
+    "Ride": 100,
     "Walk": 15,
     "Hike": 2
   },
   "week_labels": [
-    "Apr 20",
     "Apr 27",
     "May 4",
     "May 11",
@@ -35,7 +33,6 @@
     "Sep 7"
   ],
   "week_distances": [
-    1.5,
     56.1,
     111.1,
     196.0,
@@ -55,7 +52,7 @@
     152.7,
     198.3,
     90.1,
-    72.7
+    124.6
   ],
   "top_climbs": [
     {
@@ -96,7 +93,6 @@
     }
   ],
   "elevation_series": [
-    31,
     174,
     1801,
     2146,
@@ -214,9 +210,18 @@
     1437,
     3,
     89,
-    1818
+    1818,
+    2037
   ],
   "recent_rides": [
+    {
+      "name": "Morning Ride",
+      "type": "Ride",
+      "date": "2026-09-12",
+      "distance_mi": 51.9,
+      "elev_ft": 2037,
+      "moving_min": 140
+    },
     {
       "name": "Afternoon Gravel Ride",
       "type": "Ride",
@@ -288,14 +293,6 @@
       "distance_mi": 7.0,
       "elev_ft": 2395,
       "moving_min": 226
-    },
-    {
-      "name": "WGMR",
-      "type": "Ride",
-      "date": "2026-09-04",
-      "distance_mi": 23.3,
-      "elev_ft": 1184,
-      "moving_min": 77
     }
   ]
 }
