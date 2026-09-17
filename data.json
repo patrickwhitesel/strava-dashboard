@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-16T17:28:46.379664Z",
-  "total_distance_mi": 2548.8,
-  "total_elev_ft": 119922,
-  "total_moving_hr": 171.1,
+  "generated_at": "2026-09-17T17:28:55.407492Z",
+  "total_distance_mi": 2533.6,
+  "total_elev_ft": 117940,
+  "total_moving_hr": 170.2,
   "activity_count": 118,
   "sport_counts": {
-    "Ride": 100,
     "Walk": 15,
+    "Ride": 100,
     "Run": 1,
     "Hike": 2
   },
@@ -34,7 +34,7 @@
     "Sep 14"
   ],
   "week_distances": [
-    33.1,
+    7.1,
     111.1,
     196.0,
     132.4,
@@ -54,7 +54,7 @@
     198.3,
     90.1,
     124.6,
-    28.4
+    39.2
   ],
   "top_climbs": [
     {
@@ -95,7 +95,6 @@
     }
   ],
   "elevation_series": [
-    2146,
     302,
     2343,
     187,
@@ -212,9 +211,18 @@
     89,
     1818,
     2037,
-    1516
+    1516,
+    164
   ],
   "recent_rides": [
+    {
+      "name": "Morning Ride",
+      "type": "Ride",
+      "date": "2026-09-16",
+      "distance_mi": 10.8,
+      "elev_ft": 164,
+      "moving_min": 48
+    },
     {
       "name": "Commute + Egan",
       "type": "Ride",
@@ -286,14 +294,6 @@
       "distance_mi": 19.9,
       "elev_ft": 574,
       "moving_min": 72
-    },
-    {
-      "name": "Morning Hike",
-      "type": "Hike",
-      "date": "2026-09-06",
-      "distance_mi": 1.8,
-      "elev_ft": 56,
-      "moving_min": 41
     }
   ]
 }
