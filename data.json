@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-19T16:14:26.524821Z",
-  "total_distance_mi": 2567.1,
-  "total_elev_ft": 119394,
-  "total_moving_hr": 170.2,
-  "activity_count": 119,
+  "generated_at": "2026-09-20T16:41:18.978524Z",
+  "total_distance_mi": 2595.8,
+  "total_elev_ft": 120316,
+  "total_moving_hr": 171.7,
+  "activity_count": 120,
   "sport_counts": {
-    "Ride": 102,
+    "Ride": 103,
     "Walk": 14,
     "Run": 1,
     "Hike": 2
@@ -52,7 +52,7 @@
     198.3,
     90.1,
     124.6,
-    79.8
+    108.5
   ],
   "top_climbs": [
     {
@@ -211,9 +211,18 @@
     1516,
     164,
     568,
-    1188
+    1188,
+    922
   ],
   "recent_rides": [
+    {
+      "name": "Morning Ride",
+      "type": "Ride",
+      "date": "2026-09-19",
+      "distance_mi": 28.7,
+      "elev_ft": 922,
+      "moving_min": 92
+    },
     {
       "name": "Morning Ride",
       "type": "Ride",
@@ -285,14 +294,6 @@
       "distance_mi": 17.9,
       "elev_ft": 1437,
       "moving_min": 72
-    },
-    {
-      "name": "Giro di SF Cat 3",
-      "type": "Ride",
-      "date": "2026-09-07",
-      "distance_mi": 21.8,
-      "elev_ft": 807,
-      "moving_min": 52
     }
   ]
 }
