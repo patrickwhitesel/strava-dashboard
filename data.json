@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-20T16:41:18.978524Z",
-  "total_distance_mi": 2595.8,
-  "total_elev_ft": 120316,
-  "total_moving_hr": 171.7,
-  "activity_count": 120,
+  "generated_at": "2026-09-21T18:29:12.242622Z",
+  "total_distance_mi": 2614.8,
+  "total_elev_ft": 121983,
+  "total_moving_hr": 173.2,
+  "activity_count": 122,
   "sport_counts": {
-    "Ride": 103,
+    "Ride": 105,
     "Walk": 14,
     "Run": 1,
     "Hike": 2
@@ -52,7 +52,7 @@
     198.3,
     90.1,
     124.6,
-    108.5
+    127.5
   ],
   "top_climbs": [
     {
@@ -212,9 +212,27 @@
     164,
     568,
     1188,
-    922
+    922,
+    561,
+    1106
   ],
   "recent_rides": [
+    {
+      "name": "BASP Shoreline Shredder Cat B",
+      "type": "Ride",
+      "date": "2026-09-20",
+      "distance_mi": 11.3,
+      "elev_ft": 1106,
+      "moving_min": 46
+    },
+    {
+      "name": "Lunch Ride",
+      "type": "Ride",
+      "date": "2026-09-20",
+      "distance_mi": 7.7,
+      "elev_ft": 561,
+      "moving_min": 40
+    },
     {
       "name": "Morning Ride",
       "type": "Ride",
@@ -278,22 +296,6 @@
       "distance_mi": 8.3,
       "elev_ft": 89,
       "moving_min": 35
-    },
-    {
-      "name": "Morning Walk",
-      "type": "Walk",
-      "date": "2026-09-09",
-      "distance_mi": 0.5,
-      "elev_ft": 3,
-      "moving_min": 14
-    },
-    {
-      "name": "Afternoon Ride",
-      "type": "Ride",
-      "date": "2026-09-08",
-      "distance_mi": 17.9,
-      "elev_ft": 1437,
-      "moving_min": 72
     }
   ]
 }
