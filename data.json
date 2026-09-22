@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-21T18:29:12.242622Z",
-  "total_distance_mi": 2614.8,
-  "total_elev_ft": 121983,
-  "total_moving_hr": 173.2,
-  "activity_count": 122,
+  "generated_at": "2026-09-22T17:31:40.665360Z",
+  "total_distance_mi": 2653.4,
+  "total_elev_ft": 124178,
+  "total_moving_hr": 175.3,
+  "activity_count": 123,
   "sport_counts": {
-    "Ride": 105,
+    "Ride": 106,
     "Walk": 14,
     "Run": 1,
     "Hike": 2
@@ -30,7 +30,8 @@
     "Aug 24",
     "Aug 31",
     "Sep 7",
-    "Sep 14"
+    "Sep 14",
+    "Sep 21"
   ],
   "week_distances": [
     111.1,
@@ -52,7 +53,8 @@
     198.3,
     90.1,
     124.6,
-    127.5
+    127.5,
+    38.6
   ],
   "top_climbs": [
     {
@@ -214,9 +216,18 @@
     1188,
     922,
     561,
-    1106
+    1106,
+    2195
   ],
   "recent_rides": [
+    {
+      "name": "TMR",
+      "type": "Ride",
+      "date": "2026-09-22",
+      "distance_mi": 38.6,
+      "elev_ft": 2195,
+      "moving_min": 126
+    },
     {
       "name": "BASP Shoreline Shredder Cat B",
       "type": "Ride",
@@ -288,14 +299,6 @@
       "distance_mi": 14.0,
       "elev_ft": 1818,
       "moving_min": 77
-    },
-    {
-      "name": "Fueled by Thor Labs Lab Snacks",
-      "type": "Ride",
-      "date": "2026-09-10",
-      "distance_mi": 8.3,
-      "elev_ft": 89,
-      "moving_min": 35
     }
   ]
 }
