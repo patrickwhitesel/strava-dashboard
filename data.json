@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-03T16:59:48.011455Z",
-  "total_distance_mi": 2468.6,
-  "total_elev_ft": 118510,
-  "total_moving_hr": 166.3,
-  "activity_count": 118,
+  "generated_at": "2026-10-04T17:18:26.284576Z",
+  "total_distance_mi": 2436.7,
+  "total_elev_ft": 115324,
+  "total_moving_hr": 164.1,
+  "activity_count": 117,
   "sport_counts": {
-    "Ride": 99,
+    "Ride": 98,
     "Walk": 16,
     "Run": 1,
     "Hike": 2
@@ -34,7 +34,7 @@
     "Sep 28"
   ],
   "week_distances": [
-    65.8,
+    33.9,
     132.4,
     112.9,
     176.9,
@@ -88,14 +88,13 @@
       "distance_mi": 20.7
     },
     {
-      "name": "Morning Ride",
-      "date": "2026-05-16",
-      "elev_ft": 3186,
-      "distance_mi": 31.9
+      "name": "Afternoon Ride",
+      "date": "2026-07-22",
+      "elev_ft": 3127,
+      "distance_mi": 32.9
     }
   ],
   "elevation_series": [
-    3186,
     2812,
     30,
     404,
