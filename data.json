@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-07T19:12:55.703079Z",
-  "total_distance_mi": 2383.7,
-  "total_elev_ft": 112533,
-  "total_moving_hr": 160.3,
+  "generated_at": "2026-10-08T19:09:14.627692Z",
+  "total_distance_mi": 2369.9,
+  "total_elev_ft": 112251,
+  "total_moving_hr": 159.3,
   "activity_count": 114,
   "sport_counts": {
     "Ride": 97,
@@ -34,7 +34,7 @@
     "Oct 5"
   ],
   "week_distances": [
-    67.3,
+    40.8,
     112.9,
     176.9,
     126.8,
@@ -54,7 +54,7 @@
     127.5,
     91.8,
     3.3,
-    46.0
+    58.7
   ],
   "top_climbs": [
     {
@@ -95,7 +95,6 @@
     }
   ],
   "elevation_series": [
-    443,
     1486,
     505,
     16,
@@ -208,9 +207,18 @@
     36,
     13,
     341,
-    423
+    423,
+    161
   ],
   "recent_rides": [
+    {
+      "name": "Morning Ride",
+      "type": "Ride",
+      "date": "2026-10-07",
+      "distance_mi": 12.7,
+      "elev_ft": 161,
+      "moving_min": 56
+    },
     {
       "name": "Morning Ride",
       "type": "Ride",
@@ -282,14 +290,6 @@
       "distance_mi": 38.6,
       "elev_ft": 2195,
       "moving_min": 126
-    },
-    {
-      "name": "BASP Shoreline Shredder Cat B",
-      "type": "Ride",
-      "date": "2026-09-20",
-      "distance_mi": 11.3,
-      "elev_ft": 1106,
-      "moving_min": 46
     }
   ]
 }
