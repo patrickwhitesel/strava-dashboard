@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-10T17:39:24.596036Z",
-  "total_distance_mi": 2396.3,
-  "total_elev_ft": 112638,
-  "total_moving_hr": 160.9,
+  "generated_at": "2026-10-11T17:54:22.546318Z",
+  "total_distance_mi": 2423.1,
+  "total_elev_ft": 116943,
+  "total_moving_hr": 163.1,
   "activity_count": 115,
   "sport_counts": {
     "Ride": 98,
@@ -11,7 +11,6 @@
     "Hike": 2
   },
   "week_labels": [
-    "May 18",
     "May 25",
     "Jun 1",
     "Jun 8",
@@ -34,7 +33,6 @@
     "Oct 5"
   ],
   "week_distances": [
-    40.8,
     112.9,
     176.9,
     126.8,
@@ -54,9 +52,15 @@
     127.5,
     91.8,
     3.3,
-    85.1
+    152.7
   ],
   "top_climbs": [
+    {
+      "name": "Lobitos LKHC",
+      "date": "2026-10-10",
+      "elev_ft": 5791,
+      "distance_mi": 67.6
+    },
     {
       "name": "Morning Ride",
       "date": "2026-08-22",
@@ -86,16 +90,9 @@
       "date": "2026-07-16",
       "elev_ft": 3192,
       "distance_mi": 20.7
-    },
-    {
-      "name": "Afternoon Ride",
-      "date": "2026-07-22",
-      "elev_ft": 3127,
-      "distance_mi": 32.9
     }
   ],
   "elevation_series": [
-    1486,
     505,
     16,
     384,
@@ -209,9 +206,18 @@
     341,
     423,
     161,
-    387
+    387,
+    5791
   ],
   "recent_rides": [
+    {
+      "name": "Lobitos LKHC",
+      "type": "Ride",
+      "date": "2026-10-10",
+      "distance_mi": 67.6,
+      "elev_ft": 5791,
+      "moving_min": 276
+    },
     {
       "name": "Morning Ride",
       "type": "Ride",
@@ -283,14 +289,6 @@
       "distance_mi": 23.7,
       "elev_ft": 1178,
       "moving_min": 75
-    },
-    {
-      "name": "Afternoon Ride",
-      "type": "Ride",
-      "date": "2026-09-23",
-      "distance_mi": 26.3,
-      "elev_ft": 2047,
-      "moving_min": 104
     }
   ]
 }
