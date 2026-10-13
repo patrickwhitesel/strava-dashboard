@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-12T21:33:53.448200Z",
-  "total_distance_mi": 2477.5,
-  "total_elev_ft": 121832,
-  "total_moving_hr": 167.1,
-  "activity_count": 118,
+  "generated_at": "2026-10-13T19:45:00.373030Z",
+  "total_distance_mi": 2433.9,
+  "total_elev_ft": 121029,
+  "total_moving_hr": 164.9,
+  "activity_count": 117,
   "sport_counts": {
-    "Ride": 100,
     "Walk": 14,
+    "Ride": 99,
     "Run": 1,
     "Hike": 3
   },
@@ -34,7 +34,7 @@
     "Oct 12"
   ],
   "week_distances": [
-    112.9,
+    75.1,
     176.9,
     126.8,
     145.7,
@@ -54,7 +54,7 @@
     91.8,
     3.3,
     169.7,
-    37.4
+    31.6
   ],
   "top_climbs": [
     {
@@ -95,7 +95,6 @@
     }
   ],
   "elevation_series": [
-    505,
     16,
     384,
     1171,
@@ -212,16 +211,16 @@
     5791,
     1365,
     3094,
-    430
+    132
   ],
   "recent_rides": [
     {
       "name": "Afternoon Hike",
       "type": "Hike",
       "date": "2026-10-12",
-      "distance_mi": 6.3,
-      "elev_ft": 430,
-      "moving_min": 28
+      "distance_mi": 0.5,
+      "elev_ft": 132,
+      "moving_min": 17
     },
     {
       "name": "Morning Ride",
