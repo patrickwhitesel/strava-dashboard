@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-14T17:47:31.006442Z",
-  "total_distance_mi": 2441.2,
-  "total_elev_ft": 121065,
-  "total_moving_hr": 165.1,
-  "activity_count": 117,
+  "generated_at": "2026-10-15T17:37:12.776718Z",
+  "total_distance_mi": 2460.0,
+  "total_elev_ft": 123765,
+  "total_moving_hr": 166.8,
+  "activity_count": 118,
   "sport_counts": {
-    "Ride": 100,
+    "Ride": 101,
     "Walk": 13,
     "Run": 1,
     "Hike": 3
@@ -54,7 +54,7 @@
     91.8,
     3.3,
     169.7,
-    61.4
+    80.2
   ],
   "top_climbs": [
     {
@@ -211,9 +211,18 @@
     3094,
     132,
     351,
-    85
+    85,
+    2700
   ],
   "recent_rides": [
+    {
+      "name": "LKHC El Sereno",
+      "type": "Ride",
+      "date": "2026-10-15",
+      "distance_mi": 18.8,
+      "elev_ft": 2700,
+      "moving_min": 98
+    },
     {
       "name": "Morning Gravel Ride",
       "type": "Ride",
@@ -285,14 +294,6 @@
       "distance_mi": 25.3,
       "elev_ft": 423,
       "moving_min": 100
-    },
-    {
-      "name": "Morning Gravel Ride",
-      "type": "Ride",
-      "date": "2026-10-05",
-      "distance_mi": 20.7,
-      "elev_ft": 341,
-      "moving_min": 84
     }
   ]
 }
