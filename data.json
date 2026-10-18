@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-17T16:08:48.274999Z",
-  "total_distance_mi": 2410.7,
-  "total_elev_ft": 121734,
-  "total_moving_hr": 164.0,
-  "activity_count": 116,
+  "generated_at": "2026-10-18T16:21:49.318917Z",
+  "total_distance_mi": 2429.9,
+  "total_elev_ft": 127646,
+  "total_moving_hr": 172.1,
+  "activity_count": 117,
   "sport_counts": {
     "Walk": 13,
     "Ride": 99,
     "Run": 1,
-    "Hike": 3
+    "Hike": 4
   },
   "week_labels": [
     "May 25",
@@ -54,9 +54,15 @@
     91.8,
     3.3,
     169.7,
-    80.2
+    99.4
   ],
   "top_climbs": [
+    {
+      "name": "Half Dome",
+      "date": "2026-10-17",
+      "elev_ft": 5912,
+      "distance_mi": 19.2
+    },
     {
       "name": "Lobitos LKHC",
       "date": "2026-10-10",
@@ -86,12 +92,6 @@
       "date": "2026-07-11",
       "elev_ft": 3465,
       "distance_mi": 19.3
-    },
-    {
-      "name": "Showing Adrien Around",
-      "date": "2026-07-16",
-      "elev_ft": 3192,
-      "distance_mi": 20.7
     }
   ],
   "elevation_series": [
@@ -210,9 +210,18 @@
     132,
     351,
     85,
-    2700
+    2700,
+    5912
   ],
   "recent_rides": [
+    {
+      "name": "Half Dome",
+      "type": "Hike",
+      "date": "2026-10-17",
+      "distance_mi": 19.2,
+      "elev_ft": 5912,
+      "moving_min": 484
+    },
     {
       "name": "LKHC El Sereno",
       "type": "Ride",
@@ -284,14 +293,6 @@
       "distance_mi": 12.7,
       "elev_ft": 161,
       "moving_min": 56
-    },
-    {
-      "name": "Morning Ride",
-      "type": "Ride",
-      "date": "2026-10-06",
-      "distance_mi": 25.3,
-      "elev_ft": 423,
-      "moving_min": 100
     }
   ]
 }
