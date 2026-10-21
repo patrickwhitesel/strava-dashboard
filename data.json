@@ -1,14 +1,15 @@
 {
-  "generated_at": "2026-10-20T17:47:05.472464Z",
-  "total_distance_mi": 2392.4,
-  "total_elev_ft": 126833,
-  "total_moving_hr": 168.7,
+  "generated_at": "2026-10-21T17:54:34.012180Z",
+  "total_distance_mi": 2400.7,
+  "total_elev_ft": 126935,
+  "total_moving_hr": 168.9,
   "activity_count": 114,
   "sport_counts": {
-    "Ride": 98,
+    "Ride": 97,
     "Walk": 11,
     "Run": 1,
-    "Hike": 4
+    "Hike": 4,
+    "VirtualRide": 1
   },
   "week_labels": [
     "Jun 1",
@@ -30,10 +31,11 @@
     "Sep 21",
     "Sep 28",
     "Oct 5",
-    "Oct 12"
+    "Oct 12",
+    "Oct 19"
   ],
   "week_distances": [
-    142.7,
+    117.7,
     126.8,
     145.7,
     99.0,
@@ -52,7 +54,8 @@
     91.8,
     3.3,
     169.7,
-    99.4
+    99.4,
+    33.3
   ],
   "top_climbs": [
     {
@@ -93,8 +96,6 @@
     }
   ],
   "elevation_series": [
-    420,
-    95,
     266,
     269,
     1204,
@@ -206,9 +207,27 @@
     351,
     85,
     2700,
-    5912
+    5912,
+    164,
+    453
   ],
   "recent_rides": [
+    {
+      "name": "MyWhoosh - Tour Of Hegra",
+      "type": "VirtualRide",
+      "date": "2026-10-21",
+      "distance_mi": 24.7,
+      "elev_ft": 453,
+      "moving_min": 75
+    },
+    {
+      "name": "Morning Ride",
+      "type": "Ride",
+      "date": "2026-10-20",
+      "distance_mi": 8.6,
+      "elev_ft": 164,
+      "moving_min": 43
+    },
     {
       "name": "Half Dome",
       "type": "Hike",
@@ -272,22 +291,6 @@
       "distance_mi": 67.6,
       "elev_ft": 5791,
       "moving_min": 276
-    },
-    {
-      "name": "Morning Ride",
-      "type": "Ride",
-      "date": "2026-10-08",
-      "distance_mi": 26.4,
-      "elev_ft": 387,
-      "moving_min": 99
-    },
-    {
-      "name": "Morning Ride",
-      "type": "Ride",
-      "date": "2026-10-07",
-      "distance_mi": 12.7,
-      "elev_ft": 161,
-      "moving_min": 56
     }
   ]
 }
