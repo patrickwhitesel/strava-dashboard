@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-21T17:54:34.012180Z",
-  "total_distance_mi": 2400.7,
-  "total_elev_ft": 126935,
-  "total_moving_hr": 168.9,
-  "activity_count": 114,
+  "generated_at": "2026-10-22T17:51:27.241663Z",
+  "total_distance_mi": 2376.7,
+  "total_elev_ft": 127243,
+  "total_moving_hr": 167.8,
+  "activity_count": 113,
   "sport_counts": {
-    "Ride": 97,
+    "Ride": 95,
     "Walk": 11,
     "Run": 1,
     "Hike": 4,
-    "VirtualRide": 1
+    "VirtualRide": 2
   },
   "week_labels": [
     "Jun 1",
@@ -35,7 +35,7 @@
     "Oct 19"
   ],
   "week_distances": [
-    117.7,
+    77.6,
     126.8,
     145.7,
     99.0,
@@ -55,7 +55,7 @@
     3.3,
     169.7,
     99.4,
-    33.3
+    49.4
   ],
   "top_climbs": [
     {
@@ -96,8 +96,6 @@
     }
   ],
   "elevation_series": [
-    266,
-    269,
     1204,
     0,
     112,
@@ -209,9 +207,18 @@
     2700,
     5912,
     164,
-    453
+    453,
+    843
   ],
   "recent_rides": [
+    {
+      "name": "MyWhoosh - Cities Loop",
+      "type": "VirtualRide",
+      "date": "2026-10-22",
+      "distance_mi": 16.1,
+      "elev_ft": 843,
+      "moving_min": 59
+    },
     {
       "name": "MyWhoosh - Tour Of Hegra",
       "type": "VirtualRide",
@@ -283,14 +290,6 @@
       "distance_mi": 17.0,
       "elev_ft": 1365,
       "moving_min": 76
-    },
-    {
-      "name": "Lobitos LKHC",
-      "type": "Ride",
-      "date": "2026-10-10",
-      "distance_mi": 67.6,
-      "elev_ft": 5791,
-      "moving_min": 276
     }
   ]
 }
