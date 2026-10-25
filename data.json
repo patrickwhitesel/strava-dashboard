@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-24T16:26:30.739769Z",
-  "total_distance_mi": 2373.7,
-  "total_elev_ft": 126472,
-  "total_moving_hr": 167.4,
+  "generated_at": "2026-10-25T16:57:43.287834Z",
+  "total_distance_mi": 2329.6,
+  "total_elev_ft": 126687,
+  "total_moving_hr": 166.3,
   "activity_count": 112,
   "sport_counts": {
-    "Ride": 94,
     "Walk": 11,
+    "Ride": 94,
     "Run": 1,
     "Hike": 4,
     "VirtualRide": 2
@@ -35,7 +35,7 @@
     "Oct 19"
   ],
   "week_distances": [
-    53.2,
+    2.5,
     126.8,
     145.7,
     99.0,
@@ -55,7 +55,7 @@
     3.3,
     169.7,
     99.4,
-    70.8
+    77.4
   ],
   "top_climbs": [
     {
@@ -96,8 +96,6 @@
     }
   ],
   "elevation_series": [
-    112,
-    171,
     57,
     1020,
     1985,
@@ -207,9 +205,27 @@
     164,
     453,
     843,
-    433
+    433,
+    285,
+    213
   ],
   "recent_rides": [
+    {
+      "name": "Morning Gravel Ride",
+      "type": "Ride",
+      "date": "2026-10-24",
+      "distance_mi": 2.7,
+      "elev_ft": 213,
+      "moving_min": 15
+    },
+    {
+      "name": "Morning Gravel Ride",
+      "type": "Ride",
+      "date": "2026-10-24",
+      "distance_mi": 3.9,
+      "elev_ft": 285,
+      "moving_min": 24
+    },
     {
       "name": "Morning Gravel Ride",
       "type": "Ride",
@@ -273,22 +289,6 @@
       "distance_mi": 21.5,
       "elev_ft": 351,
       "moving_min": 87
-    },
-    {
-      "name": "Afternoon Hike",
-      "type": "Hike",
-      "date": "2026-10-12",
-      "distance_mi": 0.5,
-      "elev_ft": 132,
-      "moving_min": 17
-    },
-    {
-      "name": "Morning Ride",
-      "type": "Ride",
-      "date": "2026-10-12",
-      "distance_mi": 31.1,
-      "elev_ft": 3094,
-      "moving_min": 141
     }
   ]
 }
