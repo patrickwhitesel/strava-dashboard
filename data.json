@@ -1,18 +1,17 @@
 {
-  "generated_at": "2026-10-25T16:57:43.287834Z",
-  "total_distance_mi": 2329.6,
-  "total_elev_ft": 126687,
-  "total_moving_hr": 166.3,
-  "activity_count": 112,
+  "generated_at": "2026-10-26T19:01:46.246469Z",
+  "total_distance_mi": 2327.9,
+  "total_elev_ft": 127201,
+  "total_moving_hr": 165.6,
+  "activity_count": 113,
   "sport_counts": {
-    "Walk": 11,
-    "Ride": 94,
+    "Ride": 96,
+    "Walk": 10,
     "Run": 1,
     "Hike": 4,
     "VirtualRide": 2
   },
   "week_labels": [
-    "Jun 1",
     "Jun 8",
     "Jun 15",
     "Jun 22",
@@ -35,8 +34,7 @@
     "Oct 19"
   ],
   "week_distances": [
-    2.5,
-    126.8,
+    98.6,
     145.7,
     99.0,
     149.8,
@@ -55,7 +53,7 @@
     3.3,
     169.7,
     99.4,
-    77.4
+    106.4
   ],
   "top_climbs": [
     {
@@ -96,8 +94,6 @@
     }
   ],
   "elevation_series": [
-    57,
-    1020,
     1985,
     253,
     92,
@@ -207,9 +203,36 @@
     843,
     433,
     285,
-    213
+    213,
+    443,
+    315,
+    833
   ],
   "recent_rides": [
+    {
+      "name": "Surf City Cross Day 2",
+      "type": "Ride",
+      "date": "2026-10-25",
+      "distance_mi": 10.0,
+      "elev_ft": 833,
+      "moving_min": 55
+    },
+    {
+      "name": "Morning Gravel Ride",
+      "type": "Ride",
+      "date": "2026-10-25",
+      "distance_mi": 3.9,
+      "elev_ft": 315,
+      "moving_min": 27
+    },
+    {
+      "name": "Lunch Gravel Ride",
+      "type": "Ride",
+      "date": "2026-10-24",
+      "distance_mi": 15.1,
+      "elev_ft": 443,
+      "moving_min": 41
+    },
     {
       "name": "Morning Gravel Ride",
       "type": "Ride",
@@ -265,30 +288,6 @@
       "distance_mi": 19.2,
       "elev_ft": 5912,
       "moving_min": 484
-    },
-    {
-      "name": "LKHC El Sereno",
-      "type": "Ride",
-      "date": "2026-10-15",
-      "distance_mi": 18.8,
-      "elev_ft": 2700,
-      "moving_min": 98
-    },
-    {
-      "name": "Morning Gravel Ride",
-      "type": "Ride",
-      "date": "2026-10-14",
-      "distance_mi": 8.3,
-      "elev_ft": 85,
-      "moving_min": 34
-    },
-    {
-      "name": "Morning Gravel Ride",
-      "type": "Ride",
-      "date": "2026-10-13",
-      "distance_mi": 21.5,
-      "elev_ft": 351,
-      "moving_min": 87
     }
   ]
 }
