@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-26T19:01:46.246469Z",
-  "total_distance_mi": 2327.9,
-  "total_elev_ft": 127201,
-  "total_moving_hr": 165.6,
+  "generated_at": "2026-10-27T18:33:27.108780Z",
+  "total_distance_mi": 2299.2,
+  "total_elev_ft": 125410,
+  "total_moving_hr": 164.3,
   "activity_count": 113,
   "sport_counts": {
     "Ride": 96,
@@ -31,10 +31,11 @@
     "Sep 28",
     "Oct 5",
     "Oct 12",
-    "Oct 19"
+    "Oct 19",
+    "Oct 26"
   ],
   "week_distances": [
-    98.6,
+    61.5,
     145.7,
     99.0,
     149.8,
@@ -53,7 +54,8 @@
     3.3,
     169.7,
     99.4,
-    106.4
+    106.4,
+    8.4
   ],
   "top_climbs": [
     {
@@ -94,7 +96,6 @@
     }
   ],
   "elevation_series": [
-    1985,
     253,
     92,
     1371,
@@ -206,9 +207,18 @@
     213,
     443,
     315,
-    833
+    833,
+    194
   ],
   "recent_rides": [
+    {
+      "name": "Morning Ride",
+      "type": "Ride",
+      "date": "2026-10-26",
+      "distance_mi": 8.4,
+      "elev_ft": 194,
+      "moving_min": 36
+    },
     {
       "name": "Surf City Cross Day 2",
       "type": "Ride",
@@ -280,14 +290,6 @@
       "distance_mi": 8.6,
       "elev_ft": 164,
       "moving_min": 43
-    },
-    {
-      "name": "Half Dome",
-      "type": "Hike",
-      "date": "2026-10-17",
-      "distance_mi": 19.2,
-      "elev_ft": 5912,
-      "moving_min": 484
     }
   ]
 }
