@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-29T18:47:58.244290Z",
-  "total_distance_mi": 2282.0,
-  "total_elev_ft": 125508,
-  "total_moving_hr": 163.6,
-  "activity_count": 112,
+  "generated_at": "2026-10-30T18:24:59.278794Z",
+  "total_distance_mi": 2304.5,
+  "total_elev_ft": 127099,
+  "total_moving_hr": 165.2,
+  "activity_count": 113,
   "sport_counts": {
-    "Ride": 95,
+    "Ride": 96,
     "Walk": 10,
     "Run": 1,
     "Hike": 4,
@@ -55,7 +55,7 @@
     169.7,
     99.4,
     106.4,
-    35.4
+    57.9
   ],
   "top_climbs": [
     {
@@ -207,9 +207,18 @@
     315,
     833,
     194,
-    443
+    443,
+    1591
   ],
   "recent_rides": [
+    {
+      "name": "Morning Ride",
+      "type": "Ride",
+      "date": "2026-10-30",
+      "distance_mi": 22.5,
+      "elev_ft": 1591,
+      "moving_min": 96
+    },
     {
       "name": "Morning Gravel Ride",
       "type": "Ride",
@@ -281,14 +290,6 @@
       "distance_mi": 16.1,
       "elev_ft": 843,
       "moving_min": 59
-    },
-    {
-      "name": "MyWhoosh - Tour Of Hegra",
-      "type": "VirtualRide",
-      "date": "2026-10-21",
-      "distance_mi": 24.7,
-      "elev_ft": 453,
-      "moving_min": 75
     }
   ]
 }
