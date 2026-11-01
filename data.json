@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-31T17:30:58.798054Z",
-  "total_distance_mi": 2287.2,
-  "total_elev_ft": 125728,
-  "total_moving_hr": 163.4,
-  "activity_count": 112,
+  "generated_at": "2026-11-01T18:15:49.692436Z",
+  "total_distance_mi": 2317.7,
+  "total_elev_ft": 126991,
+  "total_moving_hr": 165.2,
+  "activity_count": 113,
   "sport_counts": {
-    "Ride": 95,
+    "Ride": 96,
     "Walk": 10,
     "Run": 1,
     "Hike": 4,
@@ -53,7 +53,7 @@
     169.7,
     99.4,
     106.4,
-    57.9
+    88.4
   ],
   "top_climbs": [
     {
@@ -205,9 +205,18 @@
     833,
     194,
     443,
-    1591
+    1591,
+    1263
   ],
   "recent_rides": [
+    {
+      "name": "Morning Ride",
+      "type": "Ride",
+      "date": "2026-10-31",
+      "distance_mi": 30.5,
+      "elev_ft": 1263,
+      "moving_min": 107
+    },
     {
       "name": "Morning Ride",
       "type": "Ride",
@@ -279,14 +288,6 @@
       "distance_mi": 21.4,
       "elev_ft": 433,
       "moving_min": 87
-    },
-    {
-      "name": "MyWhoosh - Cities Loop",
-      "type": "VirtualRide",
-      "date": "2026-10-22",
-      "distance_mi": 16.1,
-      "elev_ft": 843,
-      "moving_min": 59
     }
   ]
 }
