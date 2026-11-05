@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-04T20:16:53.427043Z",
-  "total_distance_mi": 2353.7,
-  "total_elev_ft": 129373,
-  "total_moving_hr": 167.1,
-  "activity_count": 114,
+  "generated_at": "2026-11-05T20:28:28.486296Z",
+  "total_distance_mi": 2357.9,
+  "total_elev_ft": 129419,
+  "total_moving_hr": 167.4,
+  "activity_count": 115,
   "sport_counts": {
-    "Ride": 97,
+    "Ride": 98,
     "Walk": 10,
     "Run": 1,
     "Hike": 4,
@@ -55,7 +55,7 @@
     99.4,
     106.4,
     123.6,
-    46.3
+    50.5
   ],
   "top_climbs": [
     {
@@ -209,9 +209,18 @@
     1263,
     2907,
     187,
-    2136
+    2136,
+    46
   ],
   "recent_rides": [
+    {
+      "name": "Morning Ride",
+      "type": "Ride",
+      "date": "2026-11-05",
+      "distance_mi": 4.2,
+      "elev_ft": 46,
+      "moving_min": 17
+    },
     {
       "name": "TMR",
       "type": "Ride",
@@ -283,14 +292,6 @@
       "distance_mi": 3.9,
       "elev_ft": 315,
       "moving_min": 27
-    },
-    {
-      "name": "Lunch Gravel Ride",
-      "type": "Ride",
-      "date": "2026-10-24",
-      "distance_mi": 15.1,
-      "elev_ft": 443,
-      "moving_min": 41
     }
   ]
 }
