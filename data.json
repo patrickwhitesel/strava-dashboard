@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-05T20:28:28.486296Z",
-  "total_distance_mi": 2357.9,
-  "total_elev_ft": 129419,
-  "total_moving_hr": 167.4,
-  "activity_count": 115,
+  "generated_at": "2026-11-06T19:51:05.808828Z",
+  "total_distance_mi": 2343.1,
+  "total_elev_ft": 128123,
+  "total_moving_hr": 166.0,
+  "activity_count": 116,
   "sport_counts": {
-    "Ride": 98,
+    "Ride": 99,
     "Walk": 10,
     "Run": 1,
     "Hike": 4,
@@ -35,7 +35,7 @@
     "Nov 2"
   ],
   "week_distances": [
-    100.2,
+    53.3,
     99.0,
     149.8,
     99.3,
@@ -55,7 +55,7 @@
     99.4,
     106.4,
     123.6,
-    50.5
+    82.6
   ],
   "top_climbs": [
     {
@@ -96,7 +96,6 @@
     }
   ],
   "elevation_series": [
-    2726,
     1663,
     1936,
     148,
@@ -210,9 +209,27 @@
     2907,
     187,
     2136,
-    46
+    46,
+    246,
+    1184
   ],
   "recent_rides": [
+    {
+      "name": "Morning Ride",
+      "type": "Ride",
+      "date": "2026-11-06",
+      "distance_mi": 24.0,
+      "elev_ft": 1184,
+      "moving_min": 77
+    },
+    {
+      "name": "Afternoon Ride",
+      "type": "Ride",
+      "date": "2026-11-05",
+      "distance_mi": 8.1,
+      "elev_ft": 246,
+      "moving_min": 45
+    },
     {
       "name": "Morning Ride",
       "type": "Ride",
@@ -276,22 +293,6 @@
       "distance_mi": 8.4,
       "elev_ft": 194,
       "moving_min": 36
-    },
-    {
-      "name": "Surf City Cross Day 2",
-      "type": "Ride",
-      "date": "2026-10-25",
-      "distance_mi": 10.0,
-      "elev_ft": 833,
-      "moving_min": 55
-    },
-    {
-      "name": "Morning Gravel Ride",
-      "type": "Ride",
-      "date": "2026-10-25",
-      "distance_mi": 3.9,
-      "elev_ft": 315,
-      "moving_min": 27
     }
   ]
 }
