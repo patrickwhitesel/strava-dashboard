@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-07T17:56:41.144542Z",
-  "total_distance_mi": 2315.5,
-  "total_elev_ft": 126460,
-  "total_moving_hr": 164.2,
+  "generated_at": "2026-11-08T18:13:21.316995Z",
+  "total_distance_mi": 2334.0,
+  "total_elev_ft": 128067,
+  "total_moving_hr": 165.2,
   "activity_count": 115,
   "sport_counts": {
     "Ride": 98,
@@ -12,7 +12,6 @@
     "VirtualRide": 2
   },
   "week_labels": [
-    "Jun 15",
     "Jun 22",
     "Jun 29",
     "Jul 6",
@@ -35,7 +34,6 @@
     "Nov 2"
   ],
   "week_distances": [
-    25.7,
     99.0,
     149.8,
     99.3,
@@ -55,7 +53,7 @@
     99.4,
     106.4,
     123.6,
-    82.6
+    126.8
   ],
   "top_climbs": [
     {
@@ -89,14 +87,13 @@
       "distance_mi": 50.3
     },
     {
-      "name": "Flow and Braille with Matt and Zach",
-      "date": "2026-07-11",
-      "elev_ft": 3465,
-      "distance_mi": 19.3
+      "name": "Morning Ride",
+      "date": "2026-11-07",
+      "elev_ft": 3543,
+      "distance_mi": 44.2
     }
   ],
   "elevation_series": [
-    1936,
     148,
     600,
     0,
@@ -210,9 +207,18 @@
     2136,
     46,
     246,
-    1184
+    1184,
+    3543
   ],
   "recent_rides": [
+    {
+      "name": "Morning Ride",
+      "type": "Ride",
+      "date": "2026-11-07",
+      "distance_mi": 44.2,
+      "elev_ft": 3543,
+      "moving_min": 171
+    },
     {
       "name": "Morning Ride",
       "type": "Ride",
@@ -284,14 +290,6 @@
       "distance_mi": 27.0,
       "elev_ft": 443,
       "moving_min": 109
-    },
-    {
-      "name": "Morning Ride",
-      "type": "Ride",
-      "date": "2026-10-26",
-      "distance_mi": 8.4,
-      "elev_ft": 194,
-      "moving_min": 36
     }
   ]
 }
