@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-14T18:39:09.924888Z",
-  "total_distance_mi": 2364.0,
-  "total_elev_ft": 130035,
-  "total_moving_hr": 166.9,
+  "generated_at": "2026-11-15T19:15:07.496041Z",
+  "total_distance_mi": 2387.3,
+  "total_elev_ft": 130941,
+  "total_moving_hr": 167.7,
   "activity_count": 116,
   "sport_counts": {
-    "Ride": 99,
     "Walk": 10,
+    "Ride": 99,
     "Run": 1,
     "Hike": 4,
     "VirtualRide": 2
@@ -35,7 +35,7 @@
     "Nov 9"
   ],
   "week_distances": [
-    31.4,
+    0.9,
     149.8,
     99.3,
     75.2,
@@ -55,7 +55,7 @@
     106.4,
     123.6,
     148.9,
-    75.5
+    129.3
   ],
   "top_climbs": [
     {
@@ -96,7 +96,6 @@
     }
   ],
   "elevation_series": [
-    1250,
     16,
     981,
     2976,
@@ -211,9 +210,18 @@
     85,
     374,
     95,
-    2037
+    2037,
+    2156
   ],
   "recent_rides": [
+    {
+      "name": "Morning Ride",
+      "type": "Ride",
+      "date": "2026-11-14",
+      "distance_mi": 53.8,
+      "elev_ft": 2156,
+      "moving_min": 152
+    },
     {
       "name": "Morning Ride",
       "type": "Ride",
@@ -285,14 +293,6 @@
       "distance_mi": 4.2,
       "elev_ft": 46,
       "moving_min": 17
-    },
-    {
-      "name": "TMR",
-      "type": "Ride",
-      "date": "2026-11-03",
-      "distance_mi": 37.8,
-      "elev_ft": 2136,
-      "moving_min": 122
     }
   ]
 }
