@@ -1,18 +1,17 @@
 {
-  "generated_at": "2026-11-15T19:15:07.496041Z",
-  "total_distance_mi": 2387.3,
-  "total_elev_ft": 130941,
-  "total_moving_hr": 167.7,
-  "activity_count": 116,
+  "generated_at": "2026-11-16T22:44:27.424389Z",
+  "total_distance_mi": 2414.2,
+  "total_elev_ft": 132549,
+  "total_moving_hr": 169.2,
+  "activity_count": 118,
   "sport_counts": {
-    "Walk": 10,
     "Ride": 99,
     "Run": 1,
+    "Walk": 10,
     "Hike": 4,
-    "VirtualRide": 2
+    "VirtualRide": 4
   },
   "week_labels": [
-    "Jun 22",
     "Jun 29",
     "Jul 6",
     "Jul 13",
@@ -32,10 +31,10 @@
     "Oct 19",
     "Oct 26",
     "Nov 2",
-    "Nov 9"
+    "Nov 9",
+    "Nov 16"
   ],
   "week_distances": [
-    0.9,
     149.8,
     99.3,
     75.2,
@@ -55,7 +54,8 @@
     106.4,
     123.6,
     148.9,
-    129.3
+    130.1,
+    27.0
   ],
   "top_climbs": [
     {
@@ -96,7 +96,6 @@
     }
   ],
   "elevation_series": [
-    16,
     981,
     2976,
     4551,
@@ -211,9 +210,36 @@
     374,
     95,
     2037,
-    2156
+    2156,
+    13,
+    89,
+    1522
   ],
   "recent_rides": [
+    {
+      "name": "Zwift - One Ride to Rule Them All in Watopia",
+      "type": "VirtualRide",
+      "date": "2026-11-16",
+      "distance_mi": 25.1,
+      "elev_ft": 1522,
+      "moving_min": 88
+    },
+    {
+      "name": "Zwift - Pacer Group Ride with Betty",
+      "type": "VirtualRide",
+      "date": "2026-11-16",
+      "distance_mi": 1.9,
+      "elev_ft": 89,
+      "moving_min": 6
+    },
+    {
+      "name": "Afternoon Walk",
+      "type": "Walk",
+      "date": "2026-11-15",
+      "distance_mi": 0.8,
+      "elev_ft": 13,
+      "moving_min": 20
+    },
     {
       "name": "Morning Ride",
       "type": "Ride",
@@ -269,30 +295,6 @@
       "distance_mi": 44.2,
       "elev_ft": 3543,
       "moving_min": 171
-    },
-    {
-      "name": "Morning Ride",
-      "type": "Ride",
-      "date": "2026-11-06",
-      "distance_mi": 24.0,
-      "elev_ft": 1184,
-      "moving_min": 77
-    },
-    {
-      "name": "Afternoon Ride",
-      "type": "Ride",
-      "date": "2026-11-05",
-      "distance_mi": 8.1,
-      "elev_ft": 246,
-      "moving_min": 45
-    },
-    {
-      "name": "Morning Ride",
-      "type": "Ride",
-      "date": "2026-11-05",
-      "distance_mi": 4.2,
-      "elev_ft": 46,
-      "moving_min": 17
     }
   ]
 }
