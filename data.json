@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-25T22:08:52.595051Z",
-  "total_distance_mi": 2306.8,
-  "total_elev_ft": 123313,
-  "total_moving_hr": 164.2,
+  "generated_at": "2026-11-26T22:07:46.359954Z",
+  "total_distance_mi": 2299.6,
+  "total_elev_ft": 122618,
+  "total_moving_hr": 163.5,
   "activity_count": 119,
   "sport_counts": {
     "Ride": 95,
@@ -35,7 +35,7 @@
     "Nov 23"
   ],
   "week_distances": [
-    79.0,
+    47.3,
     75.2,
     104.3,
     130.7,
@@ -55,7 +55,7 @@
     148.9,
     130.1,
     83.9,
-    5.8
+    30.3
   ],
   "top_climbs": [
     {
@@ -96,8 +96,6 @@
     }
   ],
   "elevation_series": [
-    1342,
-    203,
     1194,
     3465,
     82,
@@ -214,9 +212,27 @@
     535,
     157,
     434,
-    1066
+    1066,
+    0,
+    850
   ],
   "recent_rides": [
+    {
+      "name": "Morning Ride",
+      "type": "Ride",
+      "date": "2026-11-26",
+      "distance_mi": 24.5,
+      "elev_ft": 850,
+      "moving_min": 84
+    },
+    {
+      "name": "Morning Ride",
+      "type": "Ride",
+      "date": "2026-11-26",
+      "distance_mi": 0.0,
+      "elev_ft": 0,
+      "moving_min": 3
+    },
     {
       "name": "Afternoon Hike",
       "type": "Hike",
@@ -280,22 +296,6 @@
       "distance_mi": 1.9,
       "elev_ft": 89,
       "moving_min": 6
-    },
-    {
-      "name": "Afternoon Walk",
-      "type": "Walk",
-      "date": "2026-11-15",
-      "distance_mi": 0.8,
-      "elev_ft": 13,
-      "moving_min": 20
-    },
-    {
-      "name": "Morning Ride",
-      "type": "Ride",
-      "date": "2026-11-14",
-      "distance_mi": 53.8,
-      "elev_ft": 2156,
-      "moving_min": 152
     }
   ]
 }
